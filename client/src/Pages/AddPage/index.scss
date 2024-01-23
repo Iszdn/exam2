@@ -1,0 +1,19 @@
+.add{
+    padding-top: 200px;
+}
+.table{
+    td{
+        img{
+            width: 60px;
+        }
+    }
+}
+.filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    input{
+border: 1px solid lightblue;
+    }
+}

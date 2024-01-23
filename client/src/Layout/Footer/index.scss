@@ -1,0 +1,61 @@
+#footer{
+    padding: 40px 0;
+   
+ .foot-top{
+    .logo{
+        width: 132px;
+    }
+    p{
+        color: #868C98;
+        margin-top: 40px;
+    }
+    h3{
+        padding-bottom: 23px ;
+    }
+    ul{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+        li{
+            a{
+                
+                color: #868C98;
+                &:hover{
+                    color: var(--main--color);
+                }
+            }
+        }
+    }
+ }   
+ .foot-bottom{
+    margin-top: 50px;
+    .sosials{
+        display: flex;
+        gap: 30px;
+        justify-content: end;
+        i{
+            transition: .1s;
+            cursor: pointer;
+            &:hover{
+                color: var(--main--color);
+                transform: rotateY(180deg);
+                transition: .3s;
+            }
+        }
+    }
+    p{
+        font-size: 16px;
+        font-weight: 300;
+        color: 
+        
+#888888;  
+span{
+    color: var(--main--color);
+    cursor: pointer;
+}
+    }
+.fa-heart{
+    color: red;
+}
+ }
+}

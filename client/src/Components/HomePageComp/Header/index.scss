@@ -1,0 +1,42 @@
+#header {
+    background-color: #F0F0F2;
+    padding: 100px 0;
+    .info{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+  .content {
+    
+    h2 {
+      font-size: 96px;
+      color: #0b1c39;
+      font-weight: 700;
+    }
+    
+    .butt {
+display: inline-block;
+background-color: #4A4A4B;
+padding: 10px 20px;
+color: white;
+font-size: 20px;
+margin-top: 20px;
+cursor: pointer;
+    }
+  }
+}
+@media screen and (max-width:768px) {
+    #header{
+        .content {
+    
+            h2 {
+              font-size: 56px;
+              color: #0b1c39;
+              font-weight: 700;
+            }}
+      .foto{
+        display: none;
+    }   
+    }
+   
+}

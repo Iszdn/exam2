@@ -1,0 +1,36 @@
+#new{
+    padding: 80px 0;
+    .neew{
+       .img{
+        overflow: hidden;
+        transition: .5s;
+        img{
+            width: 100%;
+        }
+    }
+    .content{
+        text-align: center;
+        h3{
+            margin-top: 20px;
+            color: 
+            #444444;
+            font-size: 24px;
+            font-weight: 700;
+        }
+        p{
+            color: var(--main--color);
+        }
+    } 
+      &:hover img{
+        transition: .5s;
+        transform: scale(1.1);
+    }
+    }
+    h2{
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+   
+   
+}

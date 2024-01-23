@@ -1,0 +1,124 @@
+#navbar{
+    padding: 30px 80px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   position: fixed;
+   width: 100%;
+   z-index: 22;
+    background-color: white;
+    .nav{
+       
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+        .navigations{
+            ul{
+                display: flex;
+gap: 30px;
+                align-items: center;   
+                li{
+                    a{
+                        font-weight: 600;
+color: var(--second--color);
+transition: .3s;
+&:hover{
+transition: .3s;
+color: var(--main--color);
+}
+                    }
+                }
+            }
+        }
+        .carts{
+            display: flex;
+            align-items: center;
+            gap: 30px; 
+            a{
+                position: relative;
+        color: var(--second--color);
+        font-size: 20px;
+        .wish{
+            width: 22px;
+            height: 22px ;
+            color: white;
+            top: -5px;
+            right: -17px;
+            position: absolute;
+            border-radius: 50%;
+            text-align: center;
+            background-color: var(--main--color);
+        }
+        &:hover{
+            transition: .3s;
+            color: var(--main--color);
+            }
+    }
+        }
+        .bar{
+            display: none;
+        }
+    }
+    .nav-media{
+        display: none;
+    }
+}
+.nav-media{
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 90px;
+    
+    right: 0;
+    background-color: #4C4C4C;
+    color: white;
+    transition: .4s;
+width: 100%;
+.navigationss{
+    padding-top: 30px;
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        li{
+            a{
+                color: inherit;
+                font-size: 16px;
+            }
+        }
+    }
+}
+}
+.active-nav{
+    height: 300px;
+    transition: .4s;
+}
+@media screen and (max-width:992px) {
+    #navbar{
+        padding: 30px 50px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+       
+        .nav{
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+           
+            .navigations{
+                display: none;
+            }
+            .carts{
+                display: none;
+            }
+            .bar{
+                display: block;
+                i{
+                    font-size: 30px;
+                }
+            }
+            
+        }
+        .nav-media{
+            display: block;
+        }
+    } 
+}
